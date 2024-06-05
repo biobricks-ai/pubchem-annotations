@@ -1,2 +1,15 @@
 schema: '2.0'
-stages: {}
+stages:
+  download:
+    cmd: ./stages/download.sh
+    deps:
+    - path: ./stages/download.sh
+      hash: md5
+      md5: 696304765146d5427a8c35ade7004dae
+      size: 2562
+    outs:
+    - path: data
+      hash: md5
+      md5: 416839de78e058cc6ae0b9eddb347058.dir
+      size: 17429014
+      nfiles: 6
