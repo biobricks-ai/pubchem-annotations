@@ -1,10 +1,10 @@
 stages:
-#   download:
-#     cmd: python ./stages/01_download.py
-#     deps:
-#       - ./stages/01_download.py
-#     outs:
-#       - cache
+  # download:
+  #   cmd: python ./stages/01_download.py
+  #   deps:
+  #     - ./stages/01_download.py
+  #   outs:
+  #     - cache
 
   build:
     cmd: python ./stages/02_process.py

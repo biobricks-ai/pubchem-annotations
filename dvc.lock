@@ -13,3 +13,21 @@ stages:
       md5: 416839de78e058cc6ae0b9eddb347058.dir
       size: 17429014
       nfiles: 6
+  build:
+    cmd: python ./stages/02_process.py
+    deps:
+    - path: ./stages/02_process.py
+      hash: md5
+      md5: d46883f2ec28b33781b9e8c2b995490c
+      size: 1343
+    - path: cache
+      hash: md5
+      md5: 8ad6aa80da7d187d71df8d05247b47a6.dir
+      size: 739345592
+      nfiles: 570
+    outs:
+    - path: brick
+      hash: md5
+      md5: f670d446f6ae2804a7570a1ee0df8e9c.dir
+      size: 49737844
+      nfiles: 1
