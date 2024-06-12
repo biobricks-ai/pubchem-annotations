@@ -1,15 +1,15 @@
 stages:
-  download:
-    cmd: ./stages/download.sh
-    deps:
-      - ./stages/download.sh
-    outs:
-      - data
+#   download:
+#     cmd: python ./stages/01_download.py
+#     deps:
+#       - ./stages/01_download.py
+#     outs:
+#       - cache
 
   build:
-    cmd: python ./stages/build.py
+    cmd: python ./stages/02_process.py
     deps:
-      - ./stages/build.py
-      - data
+      - ./stages/02_process.py
+      - cache
     outs:
       - brick

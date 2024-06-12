@@ -1,3 +1,9 @@
 logs
 /data
 /brick
+annotation_links.txt
+chromedriver
+/cache
+
+LICENSE.chromedriver
+PubChemDataSources_all.csv
