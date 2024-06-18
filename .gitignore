@@ -8,3 +8,7 @@ chromedriver
 LICENSE.chromedriver
 PubChemDataSources_all.csv
 json_file_dict.json
+
+01_download_scratch.py
+02_process0_scratch.py
+missing_annotation_files.txt
