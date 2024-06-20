@@ -4,12 +4,12 @@ stages:
     deps:
       - ./stages/01_download.py
     outs:
-      - cache
+      - cache/01_download
 
   build:
     cmd: python ./stages/02_process.py
     deps:
       - ./stages/02_process.py
-      - cache
+      - cache/01_download
     outs:
       - brick
