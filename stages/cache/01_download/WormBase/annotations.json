@@ -1,0 +1,14 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "WormBase ID",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "WormBase ID",
+        "Type": "Protein"
+      }
+    ]
+  }
+}

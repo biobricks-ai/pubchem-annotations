@@ -1,0 +1,30 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Atomic Spectra",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Atomic Weight",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Ground Level",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Ionization Energy",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotope Mass and Abundance",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotope Mass and Composition",
+        "Type": "Element"
+      }
+    ]
+  }
+}

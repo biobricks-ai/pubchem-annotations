@@ -1,0 +1,18 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "KEGG Diseases",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "KEGG Gene",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "KEGG ID",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

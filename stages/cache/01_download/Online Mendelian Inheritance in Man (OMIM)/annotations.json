@@ -1,0 +1,14 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "MIM Number",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "OMIM Phenotypes",
+        "Type": "Gene"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "NCI Thesaurus Code",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NCI Thesaurus Code",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "NCI Thesaurus Code",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "NCI Thesaurus Code",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "NCI Thesaurus Code",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Cell"
+      }
+    ]
+  }
+}

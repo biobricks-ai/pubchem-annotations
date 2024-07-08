@@ -1,0 +1,46 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Accidental Release Measures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Emergency Response Planning Guidelines",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Exposure Control and Personal Protection",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Hazards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "First Aid",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazards Identification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Health Hazards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Isolation and Evacuation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Toxic-by-Inhalation (TIH) Gas",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UN Number",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

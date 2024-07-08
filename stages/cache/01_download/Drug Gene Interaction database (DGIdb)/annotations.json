@@ -1,0 +1,14 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Chemical-Gene Interactions",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Chemical-Target Interactions",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Atomic Number",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Atomic Radius",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Compounds",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Electron Affinity",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Electronegativity",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Element Forms",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Element Name",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Element Symbol",
+        "Type": "Element"
+      }
+    ]
+  }
+}

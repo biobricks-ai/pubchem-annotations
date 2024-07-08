@@ -1,0 +1,14 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Metabolites",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Taxonomy",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

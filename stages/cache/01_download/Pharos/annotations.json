@@ -1,0 +1,26 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Pharos Ligand ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Pharos Target",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Pharos Target",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Target Development Level",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Target Development Level",
+        "Type": "Protein"
+      }
+    ]
+  }
+}

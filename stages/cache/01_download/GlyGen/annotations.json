@@ -1,0 +1,30 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "GlyGen Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GlyGen Motifs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "GlyGen Protein",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Glycosylation",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Monosaccharide Composition",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Permethylated Mass",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

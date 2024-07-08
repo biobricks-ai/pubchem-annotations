@@ -1,0 +1,110 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Absorption, Distribution and Excretion",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Biological Half-Life",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Boiling Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Caco2 Permeability",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Chemical-Gene Interactions",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Chemical-Protein Interactions",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Chemical-Target Interactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Dissociation Constants",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug Indication",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug-Drug Interactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Drug-Food Interactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DrugBank ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DrugBank Target ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Hydrophobicity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Isoelectric Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LogP",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LogS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Mechanism of Action",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Melting Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Metabolism/Metabolites",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Patents",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Pharmacodynamics",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Protein Binding",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Solubility",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

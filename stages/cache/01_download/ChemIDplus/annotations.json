@@ -1,0 +1,50 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Acute Effects",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Classification Codes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Deprecated CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NLM Resources (File Locators)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Names and Synonyms",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Resources (Internet Locators)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Regulatory Agencies (Superlist Locators)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Related CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Substance Title",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Superlist Classification Codes",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

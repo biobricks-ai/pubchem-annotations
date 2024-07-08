@@ -1,0 +1,18 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "GC-MS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LC-MS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other MS",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

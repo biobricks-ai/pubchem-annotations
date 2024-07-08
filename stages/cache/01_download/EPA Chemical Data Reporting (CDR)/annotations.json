@@ -1,0 +1,30 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Consumer Uses",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "General Manufacturing Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Industry Uses",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Physical Description",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "U.S. Production",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

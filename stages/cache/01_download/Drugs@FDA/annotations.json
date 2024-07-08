@@ -1,0 +1,14 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "FDA Approved Drugs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Human Drugs",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

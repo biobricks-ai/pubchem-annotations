@@ -1,0 +1,22 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Agrochemical Category",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EU Pesticides Data",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Pesticides",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Use Classification",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

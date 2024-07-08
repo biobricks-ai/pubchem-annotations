@@ -1,0 +1,118 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Boiling Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Cancer Sites",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "DOT ID and Guide",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Density",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Exposure Routes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "First Aid",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Flammable Limits",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Flash Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hazardous Reactivities & Incompatibilities",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Immediately Dangerous to Life or Health (IDLH)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Ionization Potential",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Lower Explosive Limit (LEL)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Melting Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "NIOSH Toxicity Data",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Permissible Exposure Limit (PEL)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Personal Protective Equipment (PPE)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Physical Description",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "RTECS Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Recommended Exposure Limit (REL)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Respirator Recommendations",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Solubility",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Symptoms",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Target Organs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UN Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Upper Explosive Limit (UEL)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Use Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Vapor Pressure",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

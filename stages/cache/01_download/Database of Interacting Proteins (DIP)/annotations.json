@@ -1,0 +1,18 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Interactions",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Protein-Protein Interactions",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Target Interactions",
+        "Type": "Taxonomy"
+      }
+    ]
+  }
+}

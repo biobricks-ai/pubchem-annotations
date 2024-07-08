@@ -1,0 +1,18 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Encoding Gene",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "RefSeq Accession",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Sequence",
+        "Type": "Protein"
+      }
+    ]
+  }
+}

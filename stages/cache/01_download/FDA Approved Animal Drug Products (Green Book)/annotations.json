@@ -1,0 +1,22 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Animal Drugs",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Green Book",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Green Book Patents",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Use Classification",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Drug Classes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Hepatotoxicity",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LiverTox Summary",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

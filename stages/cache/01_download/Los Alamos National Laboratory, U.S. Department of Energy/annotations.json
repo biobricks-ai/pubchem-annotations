@@ -1,0 +1,62 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Atomic Radius",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Atomic Weight",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Boiling Point",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Compounds",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Description",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Electron Configuration",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Handling and Storage",
+        "Type": "Element"
+      },
+      {
+        "Heading": "History",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Isotopes",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Melting Point",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Oxidation States",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Production",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Sources",
+        "Type": "Element"
+      },
+      {
+        "Heading": "Uses",
+        "Type": "Element"
+      }
+    ]
+  }
+}

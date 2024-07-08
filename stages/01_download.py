@@ -11,7 +11,7 @@ with open(csv_filename, 'wb') as file:
     file.write(res.content)
 
 # Filter to sources with `Annotation Count` > 0
-source_names = pd.read_csv(csv_filename).query("`Annotation Count` > 0")['Source Name'].unique()
+source_names = pd.read_csv(csv_filename, encoding='latin1').query("`Annotation Count` > 0")['Source Name'].unique()
 
 # DOWNLOAD SOURCE ANNOTATIONS ============================================================================================
 # Each source has a download all button that we can use to download all the annotations for that source
@@ -28,7 +28,7 @@ for link, name in tqdm.tqdm(zip(links, safe_sources), total=len(links), desc="Do
     annotation_path = os.path.join('cache/01_download', name, 'annotations.json')
     os.makedirs(os.path.dirname(annotation_path), exist_ok=True)
     response = requests.get(link, stream=True)
-    time.sleep(1)  # Be nice to the server
+    time.sleep(3)  # Be nice to the server
     with open(annotation_path, 'wb') as f:
         for chunk in response.iter_content(chunk_size=8192):
             _ = f.write(chunk)

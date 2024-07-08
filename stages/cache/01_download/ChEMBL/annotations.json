@@ -1,0 +1,70 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "BioAssay Annotations",
+        "Type": "Assay"
+      },
+      {
+        "Heading": "Biochemical Reactions",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Biochemical Reactions",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Cell Line Ontology ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Cell Ontology ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Cellosaurus ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "ChEMBL Cell Line ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "ChEMBL ID",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "ChEMBL Target ID",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Chemical-Gene Interactions",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Chemical-Protein Interactions",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Chemical-Target Interactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Dissociation Constants",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Experimental Factor Ontology ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "LINCS ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Transformations",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "DEA Controlled Substances",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA National Drug Code Directory",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Pharmacological Classification",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Chemical-Gene Interactions",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Chemical-Protein Interactions",
+        "Type": "Protein"
+      },
+      {
+        "Heading": "Chemical-Target Interactions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Chemical-Target Interactions",
+        "Type": "Taxonomy"
+      }
+    ]
+  }
+}

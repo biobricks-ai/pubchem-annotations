@@ -1,0 +1,18 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Associated Foods",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Compounds",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Record Description",
+        "Type": "Taxonomy"
+      }
+    ]
+  }
+}

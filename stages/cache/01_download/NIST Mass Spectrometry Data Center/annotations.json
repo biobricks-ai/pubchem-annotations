@@ -1,0 +1,18 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "GC-MS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Kovats Retention Index",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "MS-MS",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

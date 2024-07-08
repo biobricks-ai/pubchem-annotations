@@ -1,0 +1,18 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Cell Type",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Diseases",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "HMS LINCS ID",
+        "Type": "Cell"
+      }
+    ]
+  }
+}

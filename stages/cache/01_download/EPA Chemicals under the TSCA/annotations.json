@@ -1,0 +1,22 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Deprecated CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "General Manufacturing Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UVCB",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

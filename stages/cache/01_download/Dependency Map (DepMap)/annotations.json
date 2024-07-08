@@ -1,0 +1,22 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Cell Lines",
+        "Type": "Gene"
+      },
+      {
+        "Heading": "Cellosaurus ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "DepMap ID",
+        "Type": "Cell"
+      },
+      {
+        "Heading": "Genes",
+        "Type": "Cell"
+      }
+    ]
+  }
+}

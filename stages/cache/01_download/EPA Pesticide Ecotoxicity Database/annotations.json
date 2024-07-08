@@ -1,0 +1,14 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Agrochemical Category",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EPA Ecotoxicity",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

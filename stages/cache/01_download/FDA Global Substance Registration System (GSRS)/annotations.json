@@ -1,0 +1,18 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Deprecated CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UNII",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

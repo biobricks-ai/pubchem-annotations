@@ -1,0 +1,34 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "GC",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "HPLC",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Optical Rotation",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Solubility",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Stability/Shelf Life",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Toxicity Data",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UV Spectra",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

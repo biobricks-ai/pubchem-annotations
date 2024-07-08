@@ -1,0 +1,150 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Autoignition Temperature",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Boiling Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Chemical Dangers",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Decomposition",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Density",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "EC Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Effects of Long Term Exposure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Effects of Short Term Exposure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Explosive Limits and Potential",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Exposure Routes",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Fighting",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Fire Hazards",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "First Aid Measures",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Flash Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "ICSC Environmental Data",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "ICSC Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Inhalation Risk",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "LogP",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Melting Point",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Molecular Formula",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Occupational Exposure Limits (OEL)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Packaging and Labelling",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Physical Dangers",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Physical Description",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Preventions",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Safe Storage",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Solubility",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Spillage Disposal",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Symptoms",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Threshold Limit Values (TLV)",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UN Classification",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "UN Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Vapor Density",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Vapor Pressure",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Viscosity",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

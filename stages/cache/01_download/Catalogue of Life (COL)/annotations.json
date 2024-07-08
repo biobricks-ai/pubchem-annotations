@@ -1,0 +1,14 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "COL ID",
+        "Type": "Taxonomy"
+      },
+      {
+        "Heading": "Synonyms",
+        "Type": "Taxonomy"
+      }
+    ]
+  }
+}

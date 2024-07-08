@@ -1,0 +1,18 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Associated Article",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "CCDC Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Crystal Structure Data",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

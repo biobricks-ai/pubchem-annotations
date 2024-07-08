@@ -1,0 +1,38 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "Color Additive Status",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FCN Number",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Generally Recognized as Safe - GRAS Notices",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Indirect Additives used in Food Contact Substances",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Inventory of Effective Food Contact Substance Notifications - FCN",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "FDA Substances Added to Food",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Additive Status",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Food Additives",
+        "Type": "Compound"
+      }
+    ]
+  }
+}

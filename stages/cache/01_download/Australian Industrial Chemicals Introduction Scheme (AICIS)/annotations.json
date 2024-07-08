@@ -1,0 +1,22 @@
+{
+  "InformationList": {
+    "Annotation": [
+      {
+        "Heading": "CAS",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Molecular Formula",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Other Safety Information",
+        "Type": "Compound"
+      },
+      {
+        "Heading": "Regulatory Information",
+        "Type": "Compound"
+      }
+    ]
+  }
+}
