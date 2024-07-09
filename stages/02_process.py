@@ -16,7 +16,7 @@ all_json_files = [os.path.join(root_folder, dir, 'annotations.json') for dir in 
 
 # Create a dictionary for quick lookup
 json_file_dict = {os.path.splitext(os.path.basename(file))[0]: file for file in all_json_files}
-
+print (json_file_dict)
 # Debugging: Log the total number of JSON files found
 print(f"Total JSON files found: {len(all_json_files)}")
 
@@ -25,10 +25,12 @@ for index, row in compound_df.iterrows():
     source = row['source']
     heading = row['heading']
     data_type = row['type']
+
     # Construct the expected file name without path
     file_name = f"{heading}.json"
+
     # Check if the file is in the dictionary
-    if heading in json_file_dict:
+    if heading in json_file_dict['annotations']:
         file_path = json_file_dict[heading]
         # Debugging: Log the found file path
         print(f"Processing file: {file_path}")

@@ -32,14 +32,14 @@ for name in source_names:
 
 # Download links to cache/{source_name}/annotations.json
 safe_sources = [re.sub(r'[\\/*?:"<>|]', '_', name) for name in source_names]
-for link, name in tqdm.tqdm(zip(links, safe_sources), total=len(links), desc="Downloading annotations"):
-  annotation_path = os.path.join('cache/01_download', name, 'annotations.json')
-  os.makedirs(os.path.dirname(annotation_path), exist_ok=True)
-  response = requests.get(link, stream=True)
-  time.sleep(3)  # Be nice to the server
-  with open(annotation_path, 'wb') as f:
-    for chunk in response.iter_content(chunk_size=8192):
-      _ = f.write(chunk)
+# for link, name in tqdm.tqdm(zip(links, safe_sources), total=len(links), desc="Downloading annotations"):
+#   annotation_path = os.path.join('cache/01_download', name, 'annotations.json')
+#  os.makedirs(os.path.dirname(annotation_path), exist_ok=True)
+#  response = requests.get(link, stream=True)
+#  time.sleep(3)  # Be nice to the server
+#  with open(annotation_path, 'wb') as f:
+#    for chunk in response.iter_content(chunk_size=8192):
+#      _ = f.write(chunk)
 
 # Make a 'headings' table by reading all the annotations.json files
 headings = []
@@ -75,6 +75,7 @@ for index, row in tqdm.tqdm(heading_df.iterrows(), total=len(heading_df), desc="
     'response_type': 'save',
     'response_basename': f'PubChemAnnotations_{row["source"]}_heading={safe_heading}'
   }
+
   # Initial URL and download path setup
   download_path = os.path.join('cache/01_download', row['safe_source'], f'{safe_heading}.json')
   os.makedirs(os.path.dirname(download_path), exist_ok=True)
@@ -93,7 +94,6 @@ for index, row in tqdm.tqdm(heading_df.iterrows(), total=len(heading_df), desc="
       if response.status_code == 200:
         data = response.json()
         annotations = data.get('Annotations', {})
-        print ("Annotations: %s" % annotations)
         all_data.extend(annotations.get('Annotation', []))
         # Check if more pages exist
         if current_page >= annotations.get('TotalPages', 1):
