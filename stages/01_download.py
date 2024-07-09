@@ -32,14 +32,14 @@ for name in source_names:
 
 # Download links to cache/{source_name}/annotations.json
 safe_sources = [re.sub(r'[\\/*?:"<>|]', '_', name) for name in source_names]
-# for link, name in tqdm.tqdm(zip(links, safe_sources), total=len(links), desc="Downloading annotations"):
-#   annotation_path = os.path.join('cache/01_download', name, 'annotations.json')
-#   os.makedirs(os.path.dirname(annotation_path), exist_ok=True)
-#   response = requests.get(link, stream=True)
-#   time.sleep(3)  # Be nice to the server
-#   with open(annotation_path, 'wb') as f:
-#     for chunk in response.iter_content(chunk_size=8192):
-#       _ = f.write(chunk)
+for link, name in tqdm.tqdm(zip(links, safe_sources), total=len(links), desc="Downloading annotations"):
+  annotation_path = os.path.join('cache/01_download', name, 'annotations.json')
+  os.makedirs(os.path.dirname(annotation_path), exist_ok=True)
+  response = requests.get(link, stream=True)
+  time.sleep(3)  # Be nice to the server
+  with open(annotation_path, 'wb') as f:
+    for chunk in response.iter_content(chunk_size=8192):
+      _ = f.write(chunk)
 
 # Make a 'headings' table by reading all the annotations.json files
 headings = []
