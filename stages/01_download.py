@@ -30,16 +30,18 @@ for name in source_names:
   args = urlencode({'sourcename': name, 'response_type': 'save', 'response_basename': f'{name}_PubChemAnnotationTopics'})
   links += [f"{base_url}?{args}"]
 
+out_file = open('links.txt', 'w')
+
 # Download links to cache/{source_name}/annotations.json
 safe_sources = [re.sub(r'[\\/*?:"<>|]', '_', name) for name in source_names]
 # for link, name in tqdm.tqdm(zip(links, safe_sources), total=len(links), desc="Downloading annotations"):
-#   annotation_path = os.path.join('cache/01_download', name, 'annotations.json')
-#  os.makedirs(os.path.dirname(annotation_path), exist_ok=True)
-#  response = requests.get(link, stream=True)
-#  time.sleep(3)  # Be nice to the server
-#  with open(annotation_path, 'wb') as f:
-#    for chunk in response.iter_content(chunk_size=8192):
-#      _ = f.write(chunk)
+#    annotation_path = os.path.join('cache/01_download', name, 'annotations.json')
+#    os.makedirs(os.path.dirname(annotation_path), exist_ok=True)
+#    response = requests.get(link, stream=True)
+#    time.sleep(3)  # Be nice to the server
+#    with open(annotation_path, 'wb') as f:
+#      for chunk in response.iter_content(chunk_size=8192):
+#        _ = f.write(chunk)
 
 # Make a 'headings' table by reading all the annotations.json files
 headings = []
@@ -66,7 +68,6 @@ dtp_nci_headings = heading_df[heading_df['source'] == 'DTP_NCI']
 base_url = "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/annotations/heading/JSON/?"
 
 for index, row in tqdm.tqdm(heading_df.iterrows(), total=len(heading_df), desc="Downloading headings"):
-  time.sleep(3)
   safe_heading = re.sub(r'[\\/*?:"<>|]', '_', row['heading'])
   args = {
     'source': row['source'],
@@ -87,7 +88,7 @@ for index, row in tqdm.tqdm(heading_df.iterrows(), total=len(heading_df), desc="
     # Add the current page to the args and construct the URL
     args['page'] = current_page
     paginated_url = f"{base_url}{urlencode(args)}"
-
+    out_file.write(paginated_url + '\n')
     try:
       # Fetch data for the current page
       response = requests.get(paginated_url)
@@ -95,12 +96,12 @@ for index, row in tqdm.tqdm(heading_df.iterrows(), total=len(heading_df), desc="
         data = response.json()
         annotations = data.get('Annotations', {})
         all_data.extend(annotations.get('Annotation', []))
-        # Check if more pages exist
-        if current_page >= annotations.get('TotalPages', 1):
-          break
-        # Move to the next page
-        current_page += 1
-        time.sleep(1)  # be nice to the server
+        total_pages = annotations.get('TotalPages', 1)
+        for i in range(int(total_pages)):
+            args['page'] = i
+            paginated_url = f"{base_url}{urlencode(args)}"
+            out_file.write(paginated_url + '\n')
+        break
       else:
         print(f"Failed to download page {current_page} for {row['heading']} from {row['source']}")
     except Exception as e:
