@@ -1,3 +1,5 @@
+# Imports
+# -------
 import os
 import json
 import pandas as pd
@@ -9,22 +11,12 @@ compound_df = heading_df[heading_df['type'] == 'Compound']
 
 data_list = []
 
-# Helper function to find all JSON files recursively
-def find_json_files(directory):
-    json_files = []
-    for root, _, files in os.walk(directory):
-        for file in files:
-            if file.endswith('.json'):
-                json_files.append(os.path.join(root, file))
-                print(f"Found JSON file: {os.path.join(root, file)}")
-    return json_files
-
-# Find all JSON files in the root_folder
-all_json_files = find_json_files(root_folder)
+_, dirs, _ = next(os.walk(root_folder))
+all_json_files = [os.path.join(root_folder, dir, 'annotations.json') for dir in dirs ]
 
 # Create a dictionary for quick lookup
 json_file_dict = {os.path.splitext(os.path.basename(file))[0]: file for file in all_json_files}
-
+print (json_file_dict)
 # Debugging: Log the total number of JSON files found
 print(f"Total JSON files found: {len(all_json_files)}")
 
@@ -33,10 +25,12 @@ for index, row in compound_df.iterrows():
     source = row['source']
     heading = row['heading']
     data_type = row['type']
+
     # Construct the expected file name without path
     file_name = f"{heading}.json"
+
     # Check if the file is in the dictionary
-    if heading in json_file_dict:
+    if heading in json_file_dict['annotations']:
         file_path = json_file_dict[heading]
         # Debugging: Log the found file path
         print(f"Processing file: {file_path}")
@@ -66,7 +60,7 @@ for index, row in compound_df.iterrows():
                                     'PubChemCID': pubchem_cid,
                                     'PubChemSID': pubchem_sid
                                 }
-                                
+
                                 data_list.append(record)
                 else:
                     print(f"Unexpected structure in file {file_path}")
