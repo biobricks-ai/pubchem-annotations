@@ -1,33 +1,32 @@
 schema: '2.0'
 stages:
   download:
-    cmd: ./stages/download.sh
+    cmd: python ./stages/01_download.py
     deps:
-    - path: ./stages/download.sh
+    - path: ./stages/01_download.py
       hash: md5
-      md5: 696304765146d5427a8c35ade7004dae
-      size: 2562
+      md5: e5299a39b0566e47e3283894c621f53a
+      size: 4641
     outs:
-    - path: data
+    - path: cache/01_download
       hash: md5
-      md5: 416839de78e058cc6ae0b9eddb347058.dir
-      size: 17429014
-      nfiles: 6
+      md5: 42075963418f153676a805efb574a797.dir
+      size: 38676173167
+      nfiles: 1209
   build:
     cmd: python ./stages/02_process.py
     deps:
     - path: ./stages/02_process.py
       hash: md5
-      md5: d46883f2ec28b33781b9e8c2b995490c
-      size: 1343
-    - path: cache
+      md5: ea32a2438ac12a7bbdda47798afca84c
+      size: 4044
+    - path: cache/01_download
       hash: md5
-      md5: 8ad6aa80da7d187d71df8d05247b47a6.dir
-      size: 739345592
-      nfiles: 570
+      md5: 42075963418f153676a805efb574a797.dir
+      size: 38676173167
+      nfiles: 1209
     outs:
-    - path: brick
+    - path: brick/annotations.parquet
       hash: md5
-      md5: f670d446f6ae2804a7570a1ee0df8e9c.dir
-      size: 49737844
-      nfiles: 1
+      md5: dce2a6eefbcaab20ab50fd4cf3b9b770
+      size: 1421875940

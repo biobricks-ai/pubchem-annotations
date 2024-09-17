@@ -12,4 +12,4 @@ stages:
       - ./stages/02_process.py
       - cache/01_download
     outs:
-      - brick
+      - brick/annotations.parquet

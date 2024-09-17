@@ -1,5 +1,6 @@
 import os
 import json
+import numpy as np
 import pandas as pd
 
 # Load the heading data
@@ -62,7 +63,7 @@ for index, row in compound_df.iterrows():
                                     'heading': heading,
                                     'type': data_type,
                                     'DataName': data.get('Name', ''),
-                                    'Data': data,
+                                    'Data': json.dumps(data, default=lambda x: x.tolist() if isinstance(x, np.ndarray) else x),
                                     'PubChemCID': pubchem_cid,
                                     'PubChemSID': pubchem_sid
                                 }
@@ -78,16 +79,14 @@ for index, row in compound_df.iterrows():
         # Debugging: Log the missing file
         print(f"File {file_name} not found in any subdirectory.")
 
+
 # Convert the data_list to a DataFrame
 df = pd.DataFrame(data_list)
+# some of the data is in ndarrays, we need to convert that to arrays
+df = df.apply(lambda x: x.array if isinstance(x, np.ndarray) else x)
 
-# Ensure the output directory exists
-os.makedirs('brick', exist_ok=True)
-output_file = 'brick/compound.parquet'
+df.to_parquet('brick/annotations.parquet')
 
-# Save the DataFrame to a Parquet file
-df.to_parquet(output_file)
-print(f"Data compiled and saved to {output_file}")
 
 # Group by the first column and count
 grouped_df = df.groupby(df.columns[0]).size().reset_index(name='count').sort_values('count', ascending=False)

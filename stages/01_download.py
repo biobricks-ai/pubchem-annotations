@@ -48,12 +48,8 @@ for name, safe_name in zip(source_names, safe_sources):
 heading_df = pd.DataFrame(headings)  # DataFrame with 'source' 'heading' 'type'
 heading_df.to_csv('cache/01_download/headings.csv', index=False)
 
-# read heading_df
-heading_df = pd.read_csv('cache/01_download/headings.csv')
-# Find DTP_NCI headings in heading_df
-dtp_nci_headings = heading_df[heading_df['source'] == 'DTP_NCI']
-
 # DOWNLOAD HEADING ANNOTATIONS WITH PAGINATION ========================================================================
+heading_df = pd.read_csv('cache/01_download/headings.csv')
 base_url = "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/annotations/heading/JSON/?"
 
 for index, row in tqdm.tqdm(heading_df.iterrows(), total=len(heading_df), desc="Downloading headings"):
