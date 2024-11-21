@@ -53,6 +53,7 @@ for index, row in compound_df.iterrows():
                                 pubchem_sid = item.get('LinkedRecords', {}).get('SID', [])
                                 # Create a record with the necessary details
                                 record = {
+                                    'ANID': item.get('ANID'),
                                     'SourceName': item.get('SourceName', ''),
                                     'SourceID': item.get('SourceID', ''),
                                     'Name': item.get('Name', ''),

@@ -18,8 +18,8 @@ stages:
     deps:
     - path: ./stages/02_process.py
       hash: md5
-      md5: ea32a2438ac12a7bbdda47798afca84c
-      size: 4044
+      md5: 4b52ed6c6854d4132a950a29d45eefc8
+      size: 4106
     - path: cache/01_download
       hash: md5
       md5: 42075963418f153676a805efb574a797.dir
@@ -28,5 +28,5 @@ stages:
     outs:
     - path: brick/annotations.parquet
       hash: md5
-      md5: dce2a6eefbcaab20ab50fd4cf3b9b770
-      size: 1421875940
+      md5: caaf859af34d5208741d84aee1d9f94e
+      size: 1738578596
